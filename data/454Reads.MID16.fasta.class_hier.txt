@@ -1,0 +1,108 @@
+taxid	lineage	name	rank	454Reads.MID16.fasta
+0	null	Root	no rank	7920
+1	Root;rootrank;Bacteria;domain;	Bacteria	domain	6732
+2195	Root;rootrank;Bacteria;domain;"Acidobacteria";phylum;	"Acidobacteria"	phylum	67
+2210	Root;rootrank;Bacteria;domain;"Acidobacteria";phylum;Acidobacteria_Gp4;class;	Acidobacteria_Gp4	class	67
+2211	Root;rootrank;Bacteria;domain;"Acidobacteria";phylum;Acidobacteria_Gp4;class;Gp4;genus;	Gp4	genus	67
+2	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;	"Actinobacteria"	phylum	2589
+3	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;	Actinobacteria	class	2589
+16	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;	Actinobacteridae	subclass	2504
+17	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;	Actinomycetales	order	2504
+95	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;	Micrococcineae	suborder	181
+190	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;Micrococcaceae;family;	Micrococcaceae	family	136
+192	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;Micrococcaceae;family;Arthrobacter;genus;	Arthrobacter	genus	78
+196	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;Micrococcaceae;family;Micrococcus;genus;	Micrococcus	genus	58
+132	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;Intrasporangiaceae;family;	Intrasporangiaceae	family	24
+138	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;Intrasporangiaceae;family;Janibacter;genus;	Janibacter	genus	24
+119	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;Dermacoccaceae;family;	Dermacoccaceae	family	16
+-120	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;Dermacoccaceae;family;unclassified_Dermacoccaceae;;	unclassified_Dermacoccaceae		16
+35	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;	Corynebacterineae	suborder	756
+36	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;Corynebacteriaceae;family;	Corynebacteriaceae	family	580
+39	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;Corynebacteriaceae;family;Corynebacterium;genus;	Corynebacterium	genus	580
+41	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;Dietziaceae;family;	Dietziaceae	family	132
+42	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;Dietziaceae;family;Dietzia;genus;	Dietzia	genus	132
+46	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;Mycobacteriaceae;family;	Mycobacteriaceae	family	37
+48	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;Mycobacteriaceae;family;Mycobacterium;genus;	Mycobacterium	genus	37
+254	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Propionibacterineae;suborder;	Propionibacterineae	suborder	1549
+264	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Propionibacterineae;suborder;Propionibacteriaceae;family;	Propionibacteriaceae	family	1549
+274	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Propionibacterineae;suborder;Propionibacteriaceae;family;Propionibacterium;genus;	Propionibacterium	genus	1548
+-265	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Propionibacterineae;suborder;Propionibacteriaceae;family;unclassified_Propionibacteriaceae;;	unclassified_Propionibacteriaceae		1
+-36	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Corynebacterineae;suborder;unclassified_Corynebacterineae;;	unclassified_Corynebacterineae		7
+-96	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;Micrococcineae;suborder;unclassified_Micrococcineae;;	unclassified_Micrococcineae		5
+-18	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Actinobacteridae;subclass;Actinomycetales;order;unclassified_Actinomycetales;;	unclassified_Actinomycetales		18
+386	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Rubrobacteridae;subclass;	Rubrobacteridae	subclass	51
+387	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Rubrobacteridae;subclass;Rubrobacterales;order;	Rubrobacterales	order	51
+388	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Rubrobacteridae;subclass;Rubrobacterales;order;"Rubrobacterineae";suborder;	"Rubrobacterineae"	suborder	51
+389	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Rubrobacteridae;subclass;Rubrobacterales;order;"Rubrobacterineae";suborder;Rubrobacteraceae;family;	Rubrobacteraceae	family	51
+390	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Rubrobacteridae;subclass;Rubrobacterales;order;"Rubrobacterineae";suborder;Rubrobacteraceae;family;Rubrobacter;genus;	Rubrobacter	genus	51
+362	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Coriobacteridae;subclass;	Coriobacteridae	subclass	20
+363	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Coriobacteridae;subclass;Coriobacteriales;order;	Coriobacteriales	order	20
+364	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Coriobacteridae;subclass;Coriobacteriales;order;"Coriobacterineae";suborder;	"Coriobacterineae"	suborder	20
+365	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Coriobacteridae;subclass;Coriobacteriales;order;"Coriobacterineae";suborder;Coriobacteriaceae;family;	Coriobacteriaceae	family	20
+368	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;Coriobacteridae;subclass;Coriobacteriales;order;"Coriobacterineae";suborder;Coriobacteriaceae;family;Atopobium;genus;	Atopobium	genus	20
+-4	Root;rootrank;Bacteria;domain;"Actinobacteria";phylum;Actinobacteria;class;unclassified_Actinobacteria;;	unclassified_Actinobacteria		14
+841	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;	"Proteobacteria"	phylum	602
+842	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;	Alphaproteobacteria	class	177
+1151	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Sphingomonadales;order;	Sphingomonadales	order	8
+1158	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Sphingomonadales;order;Sphingomonadaceae;family;	Sphingomonadaceae	family	8
+1165	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Sphingomonadales;order;Sphingomonadaceae;family;Sphingomonas;genus;	Sphingomonas	genus	8
+870	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhizobiales;order;	Rhizobiales	order	166
+886	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhizobiales;order;Bradyrhizobiaceae;family;	Bradyrhizobiaceae	family	166
+887	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhizobiales;order;Bradyrhizobiaceae;family;Afipia;genus;	Afipia	genus	4
+-887	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhizobiales;order;Bradyrhizobiaceae;family;unclassified_Bradyrhizobiaceae;;	unclassified_Bradyrhizobiaceae		162
+978	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhodobacterales;order;	Rhodobacterales	order	3
+979	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhodobacterales;order;Rhodobacteraceae;family;	Rhodobacteraceae	family	3
+1020	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhodobacterales;order;Rhodobacteraceae;family;Paracoccus;genus;	Paracoccus	genus	2
+-980	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Alphaproteobacteria;class;Rhodobacterales;order;Rhodobacteraceae;family;unclassified_Rhodobacteraceae;;	unclassified_Rhodobacteraceae		1
+1501	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;	Gammaproteobacteria	class	262
+1762	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Pseudomonadales;order;	Pseudomonadales	order	191
+1772	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Pseudomonadales;order;Pseudomonadaceae;family;	Pseudomonadaceae	family	178
+1781	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Pseudomonadales;order;Pseudomonadaceae;family;Pseudomonas;genus;	Pseudomonas	genus	178
+1763	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Pseudomonadales;order;Moraxellaceae;family;	Moraxellaceae	family	13
+1764	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Pseudomonadales;order;Moraxellaceae;family;Acinetobacter;genus;	Acinetobacter	genus	13
+1616	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;"Enterobacteriales";order;	"Enterobacteriales"	order	13
+1617	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;"Enterobacteriales";order;Enterobacteriaceae;family;	Enterobacteriaceae	family	13
+1633	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;"Enterobacteriales";order;Enterobacteriaceae;family;Escherichia/Shigella;genus;	Escherichia/Shigella	genus	12
+-1618	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;"Enterobacteriales";order;Enterobacteriaceae;family;unclassified_Enterobacteriaceae;;	unclassified_Enterobacteriaceae		1
+1826	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Xanthomonadales;order;	Xanthomonadales	order	41
+1834	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Xanthomonadales;order;Xanthomonadaceae;family;	Xanthomonadaceae	family	41
+1854	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Xanthomonadales;order;Xanthomonadaceae;family;Xanthomonas;genus;	Xanthomonas	genus	41
+1507	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Aeromonadales;order;	Aeromonadales	order	17
+1508	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Aeromonadales;order;Aeromonadaceae;family;	Aeromonadaceae	family	17
+1509	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Gammaproteobacteria;class;Aeromonadales;order;Aeromonadaceae;family;Aeromonas;genus;	Aeromonas	genus	17
+1175	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Betaproteobacteria;class;	Betaproteobacteria	class	130
+1176	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Betaproteobacteria;class;Burkholderiales;order;	Burkholderiales	order	130
+1206	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Betaproteobacteria;class;Burkholderiales;order;Comamonadaceae;family;	Comamonadaceae	family	130
+1214	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Betaproteobacteria;class;Burkholderiales;order;Comamonadaceae;family;Comamonas;genus;	Comamonas	genus	93
+1237	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Betaproteobacteria;class;Burkholderiales;order;Comamonadaceae;family;Variovorax;genus;	Variovorax	genus	24
+1217	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;Betaproteobacteria;class;Burkholderiales;order;Comamonadaceae;family;Diaphorobacter;genus;	Diaphorobacter	genus	13
+2259	Root;rootrank;Bacteria;domain;Firmicutes;phylum;	Firmicutes	phylum	1664
+2260	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;	Bacilli	class	1101
+2261	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Bacillales;order;	Bacillales	order	877
+2320	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Bacillales;order;Staphylococcaceae;family;	Staphylococcaceae	family	877
+2322	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Bacillales;order;Staphylococcaceae;family;Staphylococcus;genus;	Staphylococcus	genus	877
+2333	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Lactobacillales;order;	Lactobacillales	order	224
+2371	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Lactobacillales;order;Streptococcaceae;family;	Streptococcaceae	family	190
+2372	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Lactobacillales;order;Streptococcaceae;family;Streptococcus;genus;	Streptococcus	genus	190
+2363	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Lactobacillales;order;Lactobacillaceae;family;	Lactobacillaceae	family	34
+2364	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Bacilli;class;Lactobacillales;order;Lactobacillaceae;family;Lactobacillus;genus;	Lactobacillus	genus	34
+2375	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;	Clostridia	class	563
+2376	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;Clostridiales;order;	Clostridiales	order	563
+2417	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;Clostridiales;order;Clostridiales_Incertae Sedis XI;family;	Clostridiales_Incertae Sedis XI	family	443
+2418	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;Clostridiales;order;Clostridiales_Incertae Sedis XI;family;Anaerococcus;genus;	Anaerococcus	genus	172
+2421	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;Clostridiales;order;Clostridiales_Incertae Sedis XI;family;Finegoldia;genus;	Finegoldia	genus	271
+2484	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;Clostridiales;order;Ruminococcaceae;family;	Ruminococcaceae	family	120
+2622	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;Clostridiales;order;Ruminococcaceae;family;Saccharofermentans;genus;	Saccharofermentans	genus	116
+-2485	Root;rootrank;Bacteria;domain;Firmicutes;phylum;Clostridia;class;Clostridiales;order;Ruminococcaceae;family;unclassified_Ruminococcaceae;;	unclassified_Ruminococcaceae		4
+422	Root;rootrank;Bacteria;domain;"Bacteroidetes";phylum;	"Bacteroidetes"	phylum	171
+423	Root;rootrank;Bacteria;domain;"Bacteroidetes";phylum;"Bacteroidia";class;	"Bacteroidia"	class	171
+424	Root;rootrank;Bacteria;domain;"Bacteroidetes";phylum;"Bacteroidia";class;"Bacteroidales";order;	"Bacteroidales"	order	171
+448	Root;rootrank;Bacteria;domain;"Bacteroidetes";phylum;"Bacteroidia";class;"Bacteroidales";order;"Prevotellaceae";family;	"Prevotellaceae"	family	171
+451	Root;rootrank;Bacteria;domain;"Bacteroidetes";phylum;"Bacteroidia";class;"Bacteroidales";order;"Prevotellaceae";family;Prevotella;genus;	Prevotella	genus	171
+-842	Root;rootrank;Bacteria;domain;"Proteobacteria";phylum;unclassified_"Proteobacteria";;	unclassified_"Proteobacteria"		33
+2684	Root;rootrank;Bacteria;domain;Cyanobacteria/Chloroplast;phylum;	Cyanobacteria/Chloroplast	phylum	21
+2713	Root;rootrank;Bacteria;domain;Cyanobacteria/Chloroplast;phylum;Chloroplast;class;	Chloroplast	class	21
+2714	Root;rootrank;Bacteria;domain;Cyanobacteria/Chloroplast;phylum;Chloroplast;class;Chloroplast;family;	Chloroplast	family	21
+2721	Root;rootrank;Bacteria;domain;Cyanobacteria/Chloroplast;phylum;Chloroplast;class;Chloroplast;family;Streptophyta;genus;	Streptophyta	genus	21
+-2	Root;rootrank;Bacteria;domain;unclassified_Bacteria;;	unclassified_Bacteria		1618
+-1	Root;rootrank;unclassified_Root;;	unclassified_Root		1188

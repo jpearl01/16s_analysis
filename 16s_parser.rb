@@ -1,0 +1,120 @@
+#!/usr/bin/env ruby
+
+require 'axlsx'
+require 'trollop'
+
+#The idea behind this program is to be able to pass hierarchy files from the MultiClassifier.jar program 
+#which identifies where 16s sequences are from and create excel files with graphs of the data.
+#Usage: ruby 16s_parser.rb -f class_hier.txt -n neg_control_class_hier.txt
+#Setup options hash
+opts = Trollop::options do
+  opt :hier_file, "MultiClassfier.jar output (class_hier.txt)", type: :string, short: '-f'
+  opt :neg_control, "Optional negative control file (also class_hier.txt)", type: :string, short: '-n'
+end
+
+# Check if properly provided options
+abort("the class_hier.txt file was not properly parsed, check if exists?") unless File.exists?(opts[:hier_file])
+abort("A negative control file (which is also a class_hier.txt file) was provided but doesn't exist") if !opts[:neg_control].nil? && !File.exists?(opts[:neg_control])
+
+
+class Organism
+  attr_accessor :taxid, :lineage, :name, :rank, :number
+end
+
+all_organisms   = []
+sample_file     = File.open(opts[:hier_file], 'r')
+neg_file        = File.open(opts[:neg_control], 'r') if !opts[:neg_control].nil?
+@classifications = %w(phylum class order family genus species)
+
+# This method takes a file and array as input,  
+# and creates and returns a new array of Organisms from the file, 
+# and a hash of the number of classes
+
+def load_file(f, all_orgs)
+
+  f.lines do |line|
+    next unless f.lineno > 3
+    org = Organism.new
+    fields = line.split("\s")
+    org.taxid = fields[0]
+    org.lineage = fields[1]
+    org.name = fields[2].gsub(/"/,"")
+    org.rank = fields[3]
+    org.number = fields[4]
+    all_orgs.push(org)
+  end
+  return all_orgs
+end
+
+samp_organisms  = load_file(sample_file, [])
+neg_organisms   = load_file(neg_file, []) if !opts[:neg_control].nil?
+
+
+neg_hash = {}
+neg_organisms.each_entry do |n|
+  neg_hash[n.name]=1
+end
+
+
+temp_array = []
+samp_organisms.each_entry do |o|
+  temp_array.push(o) unless neg_hash.has_key?(o.name)
+end
+samp_organisms = temp_array
+
+n_classes     = {}
+@classifications.each do |c|
+  n_classes["#{c}"] = 0
+end
+samp_organisms.each_entry do |o|
+    n_classes[o.rank] = 1 + n_classes[o.rank] if  n_classes.has_key?(o.rank)
+end
+puts n_classes
+# Sort the organisms by how many there are
+samp_organisms.sort! { |a,b| a.number.to_i <=> b.number.to_i }
+
+# Add the first workbook, this holds the original annotation data for each cluster
+p      = Axlsx::Package.new
+wb     = p.workbook
+
+# Add the negative control workbook
+neg    = Axlsx::Package.new
+wb_neg = neg.workbook
+
+#Build the sheets needed for this project into the workbook
+@classifications.each_entry do |i|
+  next unless i.eql?("phylum") || i.eql?("genus")
+  wb.add_worksheet(:name => "#{i}") do |sheet|
+    sheet.add_row ["All bacteria classified as #{i}"]
+    sheet.add_row %w(name number)
+  end
+end
+
+#The sort worked, but I want it from largest to smallest, add all the data to the worksheet
+samp_organisms.reverse_each do |o|
+  next unless o.rank.eql?("phylum") || o.rank.eql?("genus")
+  next unless @classifications.include?(o.rank)
+  wb.sheet_by_name("#{o.rank}").add_row [o.name, o.number]
+end
+
+#@classifications.each_entry do |i|
+#  data_end = n_classes[i].to_s
+#  puts "something wrong with #{i.to_s}" if data_end.nil?
+#  puts "B3:B#{data_end}"
+#  next if data_end.eql?("0")
+#  sheet = wb.sheet_by_name("#{i}")
+#  sheet.add_chart(Axlsx::Bar3DChart, :start_at => "D6", :end_at => "U40", :barDir => :col) do |chart|
+#    chart.add_series :data => sheet["B3:B#{data_end}"], :labels => sheet["A3:A#{data_end}"], :title => sheet["A1"]
+#    chart.catAxis.label_rotation = -45
+#  end
+#end
+
+
+file = File.basename(opts[:hier_file])
+if !opts[:neg_control].nil?
+  p.serialize("#{file}_neg_cntrl_filtered_results.xlsx")
+else
+  p.serialize("#{file}_original_results.xlsx")
+end
+
+neg.serialize("negative_control.xlsx") if  !opts[:neg_control].nil?
